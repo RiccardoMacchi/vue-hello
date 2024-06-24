@@ -9,3 +9,13 @@ data() {
 }
 
 }).mount('#app')
+
+createApp({
+    data() {
+        return {
+        message : 'Hello Vue BISS!',
+        image : "img/boolean-logo.png"
+        }
+    }
+    
+}).mount('#box')
